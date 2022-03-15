@@ -123,7 +123,7 @@ var BaseClientPayload = &waProto.ClientPayload{
 }
 
 var CompanionProps = &waProto.CompanionProps{
-	Os: proto.String("whatsmeow"),
+	Os: proto.String("whatsmeow (forked)"),
 	Version: &waProto.AppVersion{
 		Primary:   proto.Uint32(0),
 		Secondary: proto.Uint32(1),
